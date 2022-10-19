@@ -7,7 +7,7 @@ public class MysteryShip : MonoBehaviour
     private GameManager gameManager;
 
     private Vector3 direction = Vector2.right;
-    public float speed = 9.0f;
+    public float speed = 11.0f;
     public float disappearenceFreq = 30.0f;
 
     

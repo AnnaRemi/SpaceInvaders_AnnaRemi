@@ -7,7 +7,7 @@ public class InvadersGrid : MonoBehaviour
     private GameManager gameManager;
 
     public int rows = 5;
-    public int columns = 11;
+    public int columns = 14;
     public Invader[] prefabs;
     public AnimationCurve speed; //float -> animation curve because speed changes due to amt of invaders left
 
@@ -36,7 +36,7 @@ public class InvadersGrid : MonoBehaviour
                 Invader invader = Instantiate(this.prefabs[row], this.transform);
                 invader.killed += InvaderKilled;
                 Vector3 position = rowPosition;
-                position.x += col * 2.0f; //2.0f is space between invaders
+                position.x += col * 2.5f; //2.5f is space between invaders
                 invader.transform.localPosition = position;
             }
         } 

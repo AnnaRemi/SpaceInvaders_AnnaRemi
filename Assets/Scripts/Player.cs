@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
 
     public Projectile lazerPrefab;
       
-    public float speed = 5.0f;
+    public float speed = 7.0f;
 
     private bool lazerActive;
 
